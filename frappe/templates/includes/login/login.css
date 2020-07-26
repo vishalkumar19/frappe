@@ -27,8 +27,7 @@
 }
 
 .for-login {
-  background-image:url(table.jpg);
-  background-size: cover;
+  display:none;
 }
 
 .for-forgot {
