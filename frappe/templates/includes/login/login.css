@@ -2,8 +2,7 @@
 
 .hero-and-content {
 	/*background-color: #f5f7fa;*/
-  background-image: url(table.jpg);
-  background-size: cover;
+	background-color: #fafbfc;
 }
 
 .page-sidebar, #wrap-footer, .page-header {
@@ -28,7 +27,8 @@
 }
 
 .for-login {
-	display: none;
+  background-image:url(table.jpg);
+  background-size: cover;
 }
 
 .for-forgot {
