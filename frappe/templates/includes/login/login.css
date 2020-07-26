@@ -2,7 +2,8 @@
 
 .hero-and-content {
 	/*background-color: #f5f7fa;*/
-	background-color: #fafbfc;
+  background-image: url(table.jpg);
+  background-size: cover;
 }
 
 .page-sidebar, #wrap-footer, .page-header {
