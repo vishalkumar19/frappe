@@ -105,7 +105,7 @@ p {
   margin: 70px auto;
   border: 1px solid #d1d8dd;
   border-radius: 4px;
-  background-color: rgb(155, 9, 9);
+  background-color: rgb(214, 233, 105);
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 .page-card .page-card-head {
@@ -115,7 +115,7 @@ p {
   border-bottom: 1px solid #d1d8dd;
 }
 .page-card .page-card-head .indicator {
-  color: #36414C;
+  color: #02162b;
   font-size: 14px;
 }
 .page-card .page-card-head .indicator::before {
@@ -126,9 +126,9 @@ p {
 }
 
 .bordered {
-	border: 1px solid  #d1d8dd;
+	border: 1px solid  #062f4d;
 	padding: 10px;
-	border-radius: 4px;
+	border-radius: 8px;
 }
 
 .toggle-password {
