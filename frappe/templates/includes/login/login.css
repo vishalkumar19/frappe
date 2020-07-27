@@ -2,7 +2,7 @@
 
 .hero-and-content {
 	/*background-color: #f5f7fa;*/
-	background-color: #fafbfc;
+	background-color: #599b0d;
 }
 
 .page-sidebar, #wrap-footer, .page-header {
@@ -10,7 +10,6 @@
 }
 
 .page-content {
-  background-image: url(table.jpg);
 	right: 0%;
 	width: 100%;
 }
