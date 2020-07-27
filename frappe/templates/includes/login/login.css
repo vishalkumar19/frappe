@@ -10,6 +10,7 @@
 }
 
 .page-content {
+  background-image: url(table.jpg);
 	right: 0%;
 	width: 100%;
 }
@@ -80,7 +81,7 @@
 }
 
 .form-footer .btn-default {
-	color: #36414C;
+	color: #031324;
 }
 
 h5 {
