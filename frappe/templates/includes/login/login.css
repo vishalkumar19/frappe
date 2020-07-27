@@ -1,6 +1,8 @@
 /* login-css */
-.text-center-my{
-  background-color: #062f4d;
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #599b0d;
 }
 
 .hero-and-content {
