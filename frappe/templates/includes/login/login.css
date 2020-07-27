@@ -27,7 +27,7 @@
 }
 
 .for-login {
-  background-color: aqua;
+  display:none;
 }
 
 .for-forgot {
