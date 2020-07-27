@@ -1,4 +1,7 @@
 /* login-css */
+body{
+  background-image: url("/assets/frappe/images/favicon.png");
+}
 .table{
   position: fixed;
   height: 100%;
