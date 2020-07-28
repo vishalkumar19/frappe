@@ -27,16 +27,22 @@ body{
   box-shadow:0 15px 40px rgb(200, 245, 2) ;
 }
 
-.Box.Right{
+.Box .Right{
   float:right;
   width: 50%;
   height: 400px;
   box-sizing: border-box;
 }
-.Box.Right img{
+.Box .Right img{
   width: 100%;
   height: 100%;
   background-size:cover;
+}
+
+.Box .Left{
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 
