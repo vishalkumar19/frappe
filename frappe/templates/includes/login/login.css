@@ -113,14 +113,13 @@ p {
   border: 1px solid #d1d8dd;
   border-radius: 10px;
   background-color: rgb(211, 210, 186);
-  opacity: 0.5;
   box-shadow: 4px 8px 15px rgba(230, 6, 200, 0.1);
 }
 .page-card .page-card-head {
   padding: 10px 15px;
   margin: -15px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #d1d8dd;
+  border-bottom: 1px solid #8aa4b6;
 }
 .page-card .page-card-head .indicator {
   color: #36414C;
