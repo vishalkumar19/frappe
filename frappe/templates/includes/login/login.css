@@ -6,6 +6,10 @@ body{
   background-size: cover; 
   
 }
+.Text{
+  text-align: center;
+  padding: 50px 0 20px;
+}
 .Text h1{
   margin: 0;
   padding: 0;
@@ -13,6 +17,79 @@ body{
   text-transform: uppercase;
   font-size: 37px;
 }
+
+.Box{
+  width: 50%;
+  height: 400px;
+  background: white;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  box-shadow:0 15px 40px rgb(200, 245, 2) ;
+}
+
+.Box.Right{
+  float:right;
+  width: 50%;
+  height: 400px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*.hero-and-content {
 	/*background-color: #f5f7fa;
