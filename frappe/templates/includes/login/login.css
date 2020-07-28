@@ -20,7 +20,7 @@ body{
 
 .Box{
   width: 50%;
-  height: 400px;
+  height: 500px;
   background: white;
   margin: 0 auto;
   border: 3px solid #fff;
@@ -37,9 +37,7 @@ body{
 .Box .Right img{
   width: 100%;
   height: 100%;
-  background-size:cover;
 }
-
 .Box .Left{
   float: left;
   width: 50%;
