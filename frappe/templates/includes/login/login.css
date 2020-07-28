@@ -113,6 +113,7 @@ p {
   border: 1px solid #d1d8dd;
   border-radius: 10px;
   background-color: rgb(16, 17, 0);
+  background-clip: border-box;
   box-shadow: 4px 8px 15px rgba(230, 6, 200, 0.1);
 }
 .page-card .page-card-head {
