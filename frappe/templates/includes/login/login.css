@@ -37,7 +37,9 @@ body{
 .Box .Right img{
   width: 100%;
   height: 100%;
+  background-size:cover;
 }
+
 .Box .Left{
   float: left;
   width: 50%;
