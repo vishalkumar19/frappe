@@ -24,7 +24,7 @@ body{
   background: white;
   margin: 0 auto;
   border: 3px solid #fff;
-  box-shadow:0 15px 40px rgb(200, 245, 2) ;
+  box-shadow:0 15px 40px rgb(0, 0, 0.5) ;
 }
 
 .Box .Right{
@@ -32,16 +32,19 @@ body{
   width: 50%;
   height: 400px;
   box-sizing: border-box;
-}
-.Box .Right img{
-  width: 100%;
-  height: 80%;
   background-size:cover;
 }
+/*}
+.Box .Right img{
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+}*/
 
 .Box .Left{
   float: left;
   width: 50%;
+  height: 400px;
   box-sizing: border-box;
 }
 
