@@ -124,12 +124,6 @@ p {
   box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.5);
 }
 
-.page-card .Right{
-  float:right;
-  width :50%;
-  height:400px;
-  box-sizing:border-box;
-}
 .page-card .page-card-head {
   padding: 10px 15px;
   margin: -15px;
