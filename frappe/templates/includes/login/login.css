@@ -6,6 +6,15 @@ body{
   background-size: cover; 
   
 }
+.Text h1{
+  margin: 0;
+  padding: 0;
+  color: #fafbfc;
+  text-transform: uppercase;
+  font-size: 37px;
+  
+
+}
 
 .hero-and-content {
 	/*background-color: #f5f7fa;*/
