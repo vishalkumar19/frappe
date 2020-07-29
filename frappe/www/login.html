@@ -38,12 +38,10 @@
 				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('USERNAME') }}{% endif %}"
 				required autofocus>
 				<!--<p style="color: red;" *ngIF=" (username.dirty || username.touched) && username.errors?.required"> Email is Required</p>-->
-			
-			</div>
+		</div>
 		<div>
-			<input class="input" >
-			<input type="password" id="login_password"
-					class="form-control" placeholder="{{ _('Password') }}" required>
+			<input class="input" type="password" id="login_password"
+			class="form-control" placeholder="{{ _('Password') }}" required> 
 
 			<span toggle="#login_password" class="fa fa-fw fa-eye toggle-password text-muted"></span>
 		</div>
