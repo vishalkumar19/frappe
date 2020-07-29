@@ -134,8 +134,8 @@ p {
 }
 
 .page-card {
-  max-width: 50%;
-  max-height: 40%;
+  /*max-width: 50%;
+  max-height: 40%;*/
   padding: 15px;
   margin: 70px auto;
   border: 1px solid #d1d8dd;
