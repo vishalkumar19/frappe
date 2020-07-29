@@ -31,12 +31,14 @@
 				  <h1 class="login-header">Member <label class="header-highlight">Login</label></h1>
 				  <h3 class="login-sub-header">WELCOME </h3>
 				  <form class="form-signin form-login" role="form">
-					<div>
-
+					
+		<div>
 			<input type="text" id="login_email"
-				class="form-control"
-				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('Email Address') }}{% endif %}"
+				class="input" name="username" fromControlName="username"
+				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('USERNAME') }}{% endif %}"
 				required autofocus>
+				<p style="color: red;" *ngIF=" (username.dirty || username.touched) && username.errors?.required"> Email is Required</p>
+		</div>
 
 			<div class="password-field" style="position: relative;">
 				<input type="password" id="login_password"
