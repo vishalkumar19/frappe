@@ -15,10 +15,15 @@
 			<p class="text-muted">{{ _("You need to enable JavaScript for your app to work.") }}<br>{{ _("To enable it follow the instructions in the following link: {0}").format("<a href='https://enable-javascript.com/'>enable-javascript.com</a></p>") }}
 		</div>
 	</noscript>
-<section class='for-login'>
-	<div class="login-container">
+<div class="login-container">
 		<div class="side-main">
 		  <img src="assets/images/table.jpg" alt="Side Img" class="side-img" />
+		</div>
+		<div class="main">
+			<div class="login-section">
+			<h1 class="login-header">Member <label class="header-highlight">Login</label></h1>
+			<h3 class="login-sub-header">Welcome</h3>
+			<form [fromGroup]="loginFormgroup" class="loginform">
 		</div>
 			<input type="text" id="login_email"
 				class="form-control"
