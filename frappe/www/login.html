@@ -33,8 +33,7 @@
 				  <form class="form-signin form-login" role="form">
 					
 		<div>
-			<input type="text" id="username" 
-				class="input" name="username" fromControlName="username"
+			<input class="input" type="text" id="login_email"  
 				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('USERNAME') }}{% endif %}"
 				required autofocus>
 				<!--<p style="color: red;" *ngIF=" (username.dirty || username.touched) && username.errors?.required"> Email is Required</p>-->
