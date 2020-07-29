@@ -22,8 +22,8 @@ body{
 
 
 
-.hero-and-content {
-	/*background-color: #f5f7fa;*/
+/*.hero-and-content {
+	background-color: #f5f7fa;
 	background-color: #fafbfc;
 }
 
@@ -135,7 +135,8 @@ p {
   padding: 10px 15px;
   margin: -15px;
   margin-bottom: 15px;
-  /*border-bottom: 1px solid #8aa4b6;*/
+  /*border-bottom: 1px solid #8aa4b6;
+
 }
 .page-card .page-card-head .indicator {
   color: #36414C;
@@ -152,7 +153,7 @@ p {
 	border: 1px solid  #d1d8dd;
 	padding: 10px;
 	border-radius: 4px;
-}*/
+}
 
 .toggle-password {
   right: 9px;
