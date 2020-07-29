@@ -25,10 +25,11 @@
 			<h3 class="login-sub-header">Welcome</h3>
 			<form [fromGroup]="loginFormgroup" class="loginform">
 		</div>
-			<input type="text" id="login_email"
-				class="form-control"
-				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('Email Address') }}{% endif %}"
-				required autofocus>
+			<input class="input" type="text" id="username" id="username" fromControlname="username"
+				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('username') }}{% endif %}"
+				required autofocus/>
+				<p style="color: red;" *ngif="(username.dirty || username.touched) && username.errors?.required"> Email is Required
+				</p>
 
 			<div class="password-field" style="position: relative;">
 				<input type="password" id="login_password"
