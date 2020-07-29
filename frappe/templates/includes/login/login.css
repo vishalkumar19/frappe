@@ -237,14 +237,15 @@
 
 .btn-social {
 	margin: 10px;
-}
+}*/
 
 .social-logins .fa {
 	margin-right: 5px;
 	color: #8D99A6;
 }
 
-.form-footer {
+
+/*.form-footer {
 	margin-top: -45px;
 	text-align: center;
 }
@@ -305,8 +306,8 @@ p {
 	border: 1px solid  #d1d8dd;
 	padding: 10px;
 	border-radius: 4px;
-}*/
-
+}
+*/
 .toggle-password {
   right: 9px;
   top: 9px;
