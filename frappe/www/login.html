@@ -20,62 +20,62 @@
 	<div class="Text"><h1>Login</h1></div>
 		<div class="Box">
 			<div class="Right">
-				<form class="form-signin form-login" role="form">
-					<!--<div class="page-card-head">
-						<span class="fa fa-cutlery" data-text="{{ _('Login') }}"></span>
-					</div> -->
-		
-					<input type="text" id="login_email"
-						class="form-control"
-						placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('Email Address') }}{% endif %}"
-						required autofocus>
-		
-					<div class="password-field" style="position: relative;">
-						<input type="password" id="login_password"
-								class="form-control" placeholder="{{ _('Password') }}" required>
-		
-					<!----<span toggle="#login_password" class="fa fa-fw fa-eye toggle-password text-muted"></span>-->
-					</div>
-		
-					<button class="btn btn-sm btn-primary btn-block btn-login" type="submit">
-						{{ _("Login") }}</button>
-		
-					{% if ldap_settings and ldap_settings.enabled %}
-					<button class="btn btn-primary"> btn-login btn-ldap-login">
-						{{ _("Login with LDAP") }}</button>
-					{% endif %}
-					<div class='form-footer'>
-
-						<div class='social-logins'>
-						{%- if social_login -%}
-							<h6>{{ _("Or login with") }}</h6>
-			
-							<p class="text-center" style="margin-top: 15px">
-							{% for provider in provider_logins %}
-								<a href="{{ provider.auth_url }}"
-									class="btn btn-default btn-sm btn-social btn-{{ provider.name }}">
-										{{ provider.icon }} {{ provider.provider_name }}</a>
-							{% endfor %}
-							</p>
-						{%- endif -%}
-						</div>
-			
-				{%- if not disable_signup -%}
-					<p class="text-center sign-up-message">
-						<a href="#signup" style="margin-top: -2px;">{{ _("Don't have an account? Sign up") }}</a>
-					</p>
-				{%- endif -%}
-				<p class="text-center forgot-password-message">
-					<a href="#forgot">{{ _("Forgot Password?") }}</a></p>
-				</div>
-				</form>
-				
-			</div>
-		</div>
+				<img src="table.jpg">
 			</div>
 			<div class="Left">
 				<div class="Box1">
-					<img src="table.jpg">
+					<form class="form-signin form-login" role="form">
+						<!--<div class="page-card-head">
+							<span class="fa fa-cutlery" data-text="{{ _('Login') }}"></span>
+						</div> -->
+			
+						<input type="text" id="login_email"
+							class="form-control"
+							placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('Email Address') }}{% endif %}"
+							required autofocus>
+			
+						<div class="password-field" style="position: relative;">
+							<input type="password" id="login_password"
+									class="form-control" placeholder="{{ _('Password') }}" required>
+			
+						<!----<span toggle="#login_password" class="fa fa-fw fa-eye toggle-password text-muted"></span>-->
+						</div>
+			
+						<button class="btn btn-sm btn-primary btn-block btn-login" type="submit">
+							{{ _("Login") }}</button>
+			
+						{% if ldap_settings and ldap_settings.enabled %}
+						<button class="btn btn-primary"> btn-login btn-ldap-login">
+							{{ _("Login with LDAP") }}</button>
+						{% endif %}
+						<div class='form-footer'>
+
+							<div class='social-logins'>
+							{%- if social_login -%}
+								<h6>{{ _("Or login with") }}</h6>
+				
+								<p class="text-center" style="margin-top: 15px">
+								{% for provider in provider_logins %}
+									<a href="{{ provider.auth_url }}"
+										class="btn btn-default btn-sm btn-social btn-{{ provider.name }}">
+											{{ provider.icon }} {{ provider.provider_name }}</a>
+								{% endfor %}
+								</p>
+							{%- endif -%}
+							</div>
+				
+					{%- if not disable_signup -%}
+						<p class="text-center sign-up-message">
+							<a href="#signup" style="margin-top: -2px;">{{ _("Don't have an account? Sign up") }}</a>
+						</p>
+					{%- endif -%}
+					<p class="text-center forgot-password-message">
+						<a href="#forgot">{{ _("Forgot Password?") }}</a></p>
+					</div>
+					</form>
+					
+				</div>
+			</div>
 			<!-- first edit 
 			</div>
 			<div class="Box1">
