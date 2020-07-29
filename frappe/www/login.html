@@ -33,7 +33,7 @@
 				  <form class="form-signin form-login" role="form">
 					
 		<div>
-			<input type="text" id="login_email"
+			<input type="text" id="username" 
 				class="input" name="username" fromControlName="username"
 				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('USERNAME') }}{% endif %}"
 				required autofocus>
@@ -43,9 +43,10 @@
 			<input class="input" [type]="hide ? 'password' :text'" name="password" id="login_password" fromControlName="password"
 						class="form-control" placeholder="{{ _('PASSWORD') }}" required/>
 
-			<button class="view-password-button" (click)= "hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide" type="submit">
+			<button class="view-password-button" (click)= "hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+				<!--type="submit">
 				{{ _("Login") }}</button>
-				<!--<p *ngIf="hide"><i class="fa fa-eye-slash" style="font-size:25px;"></i></p>
+				<p *ngIf="hide"><i class="fa fa-eye-slash" style="font-size:25px;"></i></p>
 				<p *ngIf="!hide"><i class="fa fa-eye" style="font-size: 25px;"></i></p>-->
 			</button>
 			<!--<p style="color: red;" *ngIf="(password.dirt || password.touched) && password.errors?.required">Password is Required</p>-->
