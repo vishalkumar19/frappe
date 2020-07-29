@@ -52,7 +52,7 @@
 		</div>
 		
 
-	</button><button class="button" type="submit" [disabled]="!loginFormGroup.valid" (click)="onSubmit()">
+	</button><button class="button" type="submit" (click)="onSubmit()">
 		{{_("Login") }}
 			{% if ldap_settings and ldap_settings.enabled %}
 			<button class="btn btn-sm btn-default btn-block btn-login btn-ldap-login">
