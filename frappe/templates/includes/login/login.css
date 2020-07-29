@@ -43,10 +43,10 @@ body{
 	display: none;
 }
 
-.page-content {
+/*.page-content {
 	right: 0%;
 	width: 100%;
-}
+}*/
 
 .icon-twitter, .icon-twitter-sign{
     color: #00a0d1;
@@ -102,7 +102,7 @@ body{
 	color: #8D99A6;
 }
 
-.form-footer {
+/*.form-footer {
 	margin-top: -45px;
 	text-align: center;
 }
@@ -115,7 +115,7 @@ body{
 
 .form-footer .btn-default {
 	color: #36414C;
-}
+}*/
 
 h5 {
   position: relative;
