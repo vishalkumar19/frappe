@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 4fr 7fr;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #9e9898;
   width: 100%;
   box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.06);
   height: 100%;
@@ -42,7 +42,7 @@
   text-transform: uppercase;
 }
 .header-highlight {
-  color: #2b8947;
+  color: #750380;
 }
 .login-sub-header {
   text-align: center;
@@ -77,7 +77,7 @@
   top: 30%;
 }
 .button {
-  background: #2b8947;
+  background:#750380;
   box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
   border-radius: 10px;
   color: #ffffff;
