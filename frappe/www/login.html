@@ -37,7 +37,7 @@
 				class="input" name="username" fromControlName="username"
 				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('USERNAME') }}{% endif %}"
 				required autofocus>
-				<p style="color: red;" *ngIF=" (username.dirty || username.touched) && username.errors?.required"> Email is Required</p>-->
+				<!--<p style="color: red;" *ngIF=" (username.dirty || username.touched) && username.errors?.required"> Email is Required</p>-->
 		</div>
 		<div>
 			<input class="input" [type]="hide ? 'password' :text'" name="password" id="login_password" fromControlName="password"
