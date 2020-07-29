@@ -99,7 +99,7 @@
   top: 43px;
   float: right;
 }
-.view-password-button {
+/*.view-password-button {
   position: absolute;
   right: 46px;
   margin-top: 32px;
@@ -107,7 +107,7 @@
   outline: none;
   background-color: transparent;
   width: 30px;
-}
+}*/
 @media only screen and (max-width: 1024px) {
   .login-container {
     grid-template-columns: 5fr 7fr;
