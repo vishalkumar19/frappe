@@ -1,7 +1,72 @@
 /* login-css */
+.login-container {
+  display: grid;
+  grid-template-columns: 4fr 7fr;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.06);
+  height: 100%;
+}
+.side-main {
+  background-color: #2b8947;
+  width: 100%;
+  box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.06);
+}
+.side-img {
+  width: 100%;
+  height: 100%;
+}
 
-.hero-and-content {
-	/*background-color: #f5f7fa;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.hero-and-content {
+	/*background-color: #f5f7fa;
 	background-color: #fafbfc;
 }
 
