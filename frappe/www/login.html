@@ -41,12 +41,12 @@
 			
 			</div>
 		<div>
-			<input class="input" [type]="hide ? 'password' :text'" name="password" id="login_password" fromControlName="password"
-					 placeholder="{{ _('PASSWORD') }}" required/>
-						<span toggle="#login_password" class="fa fa-fw fa-eye toggle-password text-muted"></span>
+			<input class="input" >
+			<input type="password" id="login_password"
+					class="form-control" placeholder="{{ _('Password') }}" required>
+
+			<span toggle="#login_password" class="fa fa-fw fa-eye toggle-password text-muted"></span>
 		</div>
-
-
 			<!--<button class="view-password-button" (click)= "hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide" type="submit">
 				{{ _("Login") }}
 				<p *ngIf="hide"><i class="fa fa-eye-slash" style="font-size:25px;"></i></p>
