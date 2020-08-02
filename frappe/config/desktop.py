@@ -7,7 +7,6 @@ def get_data():
 		# Administration
 		{
 			"module_name": "inventory Management",
-			"category": "Modules",
 			"color": "#8e44ad",
 			"icon": "fa fa-puzzle-piece",
 			"icon": "octicon octicon-rocket",
