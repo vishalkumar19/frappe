@@ -6,6 +6,14 @@ def get_data():
 	return [
 		# Administration
 		{
+			"module_name": "inventory Management",
+			"category": "Modules",
+			"color": "#8e44ad",
+			"icon": "fa fa-puzzle-piece",
+			"icon": "octicon octicon-rocket",
+			"type": "module"
+		},
+		{
 			"module_name": "Desk",
 			"category": "Administration",
 			"label": _("Tools"),
