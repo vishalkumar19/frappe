@@ -6,16 +6,6 @@ def get_data():
 	return [
 		# Administration
 		{
-			"module_name": "Inventory management",
-			"category": "Administration",
-			"label": _("Tools"),
-			"color": "#FFF5A7",
-			"reverse": 1,
-			"icon": "octicon octicon-calendar",
-			"type": "module",
-			"description": "Todos, notes, calendar and newsletter."
-		},
-		{
 			"module_name": "Desk",
 			"category": "Administration",
 			"label": _("Tools"),
