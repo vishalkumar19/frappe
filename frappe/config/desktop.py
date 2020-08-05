@@ -16,6 +16,16 @@ def get_data():
 			"description": "Todos, notes, calendar and newsletter."
 		},
 		{
+			"module_name": "POS",
+			"category": "Administration",
+			"label": _("POS"),
+			"color": "#FFF5A7",
+			"reverse": 1,
+			"icon": "octicon octicon-calendar",
+			"type": "module",
+			"description": "Todos, notes, calendar and newsletter."
+		},
+		{
 			"module_name": "Settings",
 			"category": "Administration",
 			"label": _("Settings"),
