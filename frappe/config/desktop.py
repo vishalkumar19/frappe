@@ -22,9 +22,8 @@ def get_data():
 			"color": "#FFF5A7",
 			"reverse": 1,
 			"icon": "octicon octicon-calendar",
-			"type": "Open POS",
+			"type": "List",
 			"link": "Open POS"
-			"hidden":1
 		},
 		{
 			"module_name": "Settings",
