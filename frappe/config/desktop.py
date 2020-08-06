@@ -24,6 +24,7 @@ def get_data():
 			"icon": "octicon octicon-calendar",
 			"type": "Open POS",
 			"link": "Open POS"
+			"hidden":1
 		},
 		{
 			"module_name": "Settings",
